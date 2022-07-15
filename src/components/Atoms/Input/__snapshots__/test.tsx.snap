@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input/> Should be render Input 1`] = `
+.c1 {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.c0 {
+  border-radius: 1rem;
+  border: 1px solid #CECECE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45rem;
+  height: 5rem;
+  padding: 0 2.4rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  margin: 0 1.6rem;
+  outline: none;
+  font-size: 1.8rem;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: #CECECE;
+  font-size: 1.8rem;
+}
+
+.c0 input::-moz-placeholder {
+  color: #CECECE;
+  font-size: 1.8rem;
+}
+
+.c0 input:-ms-input-placeholder {
+  color: #CECECE;
+  font-size: 1.8rem;
+}
+
+.c0 input::placeholder {
+  color: #CECECE;
+  font-size: 1.8rem;
+}
+
+<div
+  class="c0"
+>
+  <img
+    aria-label="Icone de casa"
+    class="c1"
+    src="/img/icons/home.png"
+  />
+  <input />
+</div>
+`;

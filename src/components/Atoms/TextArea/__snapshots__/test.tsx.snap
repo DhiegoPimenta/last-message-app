@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea /> Should render the textarea 1`] = `
+.c0 {
+  border: 4px solid #FBA9B0;
+  border-radius: 1rem;
+  width: 100%;
+  height: 33rem;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #CECECE;
+  font-size: 1.8rem;
+  padding: 3rem;
+  font-weight: 600;
+}
+
+.c0::-moz-placeholder {
+  color: #CECECE;
+  font-size: 1.8rem;
+  padding: 3rem;
+  font-weight: 600;
+}
+
+.c0:-ms-input-placeholder {
+  color: #CECECE;
+  font-size: 1.8rem;
+  padding: 3rem;
+  font-weight: 600;
+}
+
+.c0::placeholder {
+  color: #CECECE;
+  font-size: 1.8rem;
+  padding: 3rem;
+  font-weight: 600;
+}
+
+<textarea
+  aria-label="campo de inserção de texto"
+  class="c0"
+  placeholder="Escreva aqui sua mensagem..."
+/>
+`;

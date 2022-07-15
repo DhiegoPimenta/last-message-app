@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text /> should render text 1`] = `
+.c0 {
+  color: #64CBC5;
+  font-size: 2.4rem;
+  width: 100%;
+  display: block;
+  font-weight: 400;
+}
+
+<h2
+  class="c0"
+  color="primary"
+>
+  text
+</h2>
+`;

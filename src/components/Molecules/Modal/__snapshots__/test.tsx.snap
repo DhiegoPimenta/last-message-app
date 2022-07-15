@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> should render the modal 1`] = `
+.c3 {
+  color: #64CBC5;
+  font-size: 2.4rem;
+  width: 100%;
+  display: block;
+  font-weight: 400;
+  text-align: center;
+}
+
+.c2 {
+  font-weight: bold;
+  color: #64CBC5;
+  font-size: 2.4rem;
+  font-weight: 400;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+}
+
+.c0 {
+  background: rgba(0,0,0,0.3);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  width: 45rem;
+  height: 30rem;
+  border: 4px solid #FBA9B0;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  z-index: 50;
+  background-color: #FFFFFF;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h1
+      class="c2"
+      color="primary"
+    >
+      any-title
+    </h1>
+    <p
+      class="c3"
+      color="primary"
+    >
+      any-description
+    </p>
+    Modal
+    <div
+      class="c4"
+    />
+  </div>
+</div>
+`;

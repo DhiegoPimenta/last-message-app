@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputFile/> Should be render InputFile 1`] = `
+.c1 {
+  color: #CECECE;
+  font-size: 2.4rem;
+  width: 100%;
+  display: block;
+  font-weight: 400;
+  text-align: center;
+}
+
+.c0 {
+  border: 4px dashed #FBA9B0;
+  background-size: cover;
+  cursor: pointer;
+  height: 33rem;
+  width: 100%;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 input {
+  display: none;
+}
+
+.c0 .has-thumbnail {
+  border: 0;
+}
+
+.c0 .has-thumbnail img {
+  display: none;
+}
+
+<label
+  class="c0"
+  id="thumbnail"
+  style="background-image: url(null);"
+>
+  <input
+    type="file"
+  />
+  <p
+    class="c1"
+    color="gray"
+  >
+    Adicione seu video ou imagem
+  </p>
+</label>
+`;

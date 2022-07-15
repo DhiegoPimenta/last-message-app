@@ -1,0 +1,22 @@
+{
+    "name": "Last Message",
+    "short_name": "Last Message",
+    "icons": [
+      {
+        "src": "/img/logo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#64CBC5",
+    "background_color": "#64CBC5",
+    "description":"Last message",
+    "start_url": "/",
+    "display": "fullscreen",
+    "orientation": "portrait"
+  }

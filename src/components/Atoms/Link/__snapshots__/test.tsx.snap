@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link/> Should be render with default values 1`] = `
+.c0 {
+  color: #64CBC5;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+
+<a
+  class="c0"
+  data-testid="link-button"
+  href="/"
+>
+  Link
+</a>
+`;

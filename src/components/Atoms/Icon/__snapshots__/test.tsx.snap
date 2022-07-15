@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Icon/> Should be render Icon 1`] = `
+.c0 {
+  width: 7.25rem;
+  height: 7.25rem;
+}
+
+<img
+  aria-label="Icone de casa"
+  class="c0"
+  src="/img/icons/home.png"
+/>
+`;

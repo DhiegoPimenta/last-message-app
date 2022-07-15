@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> should render a link when prop "navigateToHome" is true 1`] = `
+.c0 {
+  width: 100%;
+  width: 15rem;
+  height: 15rem;
+}
+
+<a
+  data-testid="logo-link"
+  href="/"
+>
+  <img
+    alt="Logo Last Message"
+    class="c0"
+    src="/img/logo.png"
+  />
+</a>
+`;
+
+exports[`<Logo /> should render a white label by default 1`] = `
+.c0 {
+  width: 100%;
+  width: 15rem;
+  height: 15rem;
+}
+
+<img
+  alt="Logo Last Message"
+  class="c0"
+  src="/img/logo.png"
+/>
+`;

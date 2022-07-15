@@ -1,0 +1,414 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carrousel /> should be render with arrows 1`] = `
+.c2 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 .slick-list,
+.c0 .slick-slider,
+.c0 .slick-track {
+  position: relative;
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  overflow: visible;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .slick-loading .slick-slide,
+.c0 .slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.c0 .slick-slider {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c0 .slick-slider svg {
+  width: 20rem;
+}
+
+.c0 .slick-list {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.c0 .slick-list:focus {
+  outline: 0;
+}
+
+.c0 .slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.c0 .slick-slider .slick-list,
+.c0 .slick-slider .slick-track {
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.c0 .slick-track {
+  top: 0;
+  left: 0;
+}
+
+.c0 .slick-track:after,
+.c0 .slick-track:before {
+  display: table;
+  content: '';
+}
+
+.c0 .slick-track:after {
+  clear: both;
+}
+
+.c0 .slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 100%;
+}
+
+.c0 [dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.c0 .slick-slide img {
+  display: block;
+}
+
+.c0 .slick-slide.slick-loading img {
+  display: none;
+}
+
+.c0 .slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.c0 .slick-initialized .slick-slide {
+  display: block;
+}
+
+.c0 .slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.c0 .slick-arrow.slick-hidden {
+  display: none;
+}
+
+.c0 .slick-slide > div,
+.c0 .slick-slide > div > div {
+  height: 100%;
+}
+
+.c0 svg {
+  display: block;
+  color: #FFFFFF;
+  width: 11rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.c0 .slick-dots {
+  position: absolute;
+  bottom: -2rem;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+
+.c0 .slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  margin: 0 0.5rem;
+  padding: 0;
+  cursor: pointer;
+  top: 1rem;
+}
+
+.c0 .slick-dots li button {
+  border: 0;
+  display: block;
+  height: 2rem;
+  outline: none;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.c0 .slick-dots li button:hover,
+.c0 .slick-dots li button:focus {
+  outline: none;
+}
+
+.c0 .slick-dots li button:hover:before,
+.c0 .slick-dots li button:focus:before {
+  opacity: 1;
+}
+
+.c0 .slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: ' ';
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #64CBC5;
+  border-radius: 50%;
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 5px;
+  text-align: center;
+  color: #444444;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.c0 .slick-dots li.slick-active button:before {
+  color: black;
+  opacity: 0.75;
+}
+
+.c1 svg {
+  color: #64CBC5;
+}
+
+@media (max-width:768px) {
+  .c0 .slick-dots {
+    bottom: 0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 .slick-dots li {
+    margin: 0 0.1rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="slick-slider c1 slick-initialized"
+    dir="ltr"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="voltar slide"
+      class="c2 slick-arrow slick-prev"
+      data-role="none"
+      fill="currentColor"
+      focusable="false"
+      style="display: block;"
+      viewBox="0 0 320 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M34.52 239.03 228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"
+        fill="currentColor"
+      />
+    </svg>
+    <div
+      class="slick-list"
+    >
+      <div
+        class="slick-track"
+        style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+      >
+        <div
+          aria-hidden="true"
+          class="slick-slide slick-cloned"
+          data-index="-1"
+          style="width: 0px;"
+          tabindex="-1"
+        >
+          <div>
+            <h2
+              style="width: 100%; display: inline-block;"
+              tabindex="-1"
+            >
+              any-item-3
+            </h2>
+          </div>
+        </div>
+        <div
+          aria-hidden="false"
+          class="slick-slide slick-active slick-current"
+          data-index="0"
+          style="outline: none; width: 0px;"
+          tabindex="-1"
+        >
+          <div>
+            <h2
+              style="width: 100%; display: inline-block;"
+              tabindex="-1"
+            >
+              any-item-1
+            </h2>
+          </div>
+        </div>
+        <div
+          aria-hidden="true"
+          class="slick-slide"
+          data-index="1"
+          style="outline: none; width: 0px;"
+          tabindex="-1"
+        >
+          <div>
+            <h2
+              style="width: 100%; display: inline-block;"
+              tabindex="-1"
+            >
+              any-item-2
+            </h2>
+          </div>
+        </div>
+        <div
+          aria-hidden="true"
+          class="slick-slide"
+          data-index="2"
+          style="outline: none; width: 0px;"
+          tabindex="-1"
+        >
+          <div>
+            <h2
+              style="width: 100%; display: inline-block;"
+              tabindex="-1"
+            >
+              any-item-3
+            </h2>
+          </div>
+        </div>
+        <div
+          aria-hidden="true"
+          class="slick-slide slick-cloned"
+          data-index="3"
+          style="width: 0px;"
+          tabindex="-1"
+        >
+          <div>
+            <h2
+              style="width: 100%; display: inline-block;"
+              tabindex="-1"
+            >
+              any-item-1
+            </h2>
+          </div>
+        </div>
+        <div
+          aria-hidden="true"
+          class="slick-slide slick-cloned"
+          data-index="4"
+          style="width: 0px;"
+          tabindex="-1"
+        >
+          <div>
+            <h2
+              style="width: 100%; display: inline-block;"
+              tabindex="-1"
+            >
+              any-item-2
+            </h2>
+          </div>
+        </div>
+        <div
+          aria-hidden="true"
+          class="slick-slide slick-cloned"
+          data-index="5"
+          style="width: 0px;"
+          tabindex="-1"
+        >
+          <div>
+            <h2
+              style="width: 100%; display: inline-block;"
+              tabindex="-1"
+            >
+              any-item-3
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg
+      aria-hidden="true"
+      aria-label="avançar slide"
+      class="c2 slick-arrow slick-next"
+      data-role="none"
+      fill="currentColor"
+      focusable="false"
+      style="display: block;"
+      viewBox="0 0 320 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M285.476 272.971 91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+        fill="currentColor"
+      />
+    </svg>
+    <ul
+      class="slick-dots"
+      style="display: block;"
+    >
+      <li
+        class="slick-active"
+      >
+        <button>
+          1
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button>
+          2
+        </button>
+      </li>
+      <li
+        class=""
+      >
+        <button>
+          3
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
